@@ -21,6 +21,7 @@ export default function YoutubePricing() {
     },
     {
       name: "YouTube運用プラン",
+
       price: "280,000",
       period: "月",
       description: "通常価格 月40万円のところ、特別価格でご提供！",
@@ -58,7 +59,7 @@ export default function YoutubePricing() {
           <p className="text-lg text-gray-600 mb-2">経営者の想いを未来につなぐYouTube運用プラン</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-          {plans.map((plan, index) => (
+          {plans.map((plan) => (
             <div
               key={plan.name}
               className={`

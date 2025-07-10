@@ -33,7 +33,7 @@ export default function Hero() {
               <br />
               あなたの店を
               <br />
-              <span className="text-[#fffefe]">"行列店"</span>に。
+              <span className="text-[#fffefe]">&quot;行列店&quot;</span>に。
             </h1>
             <p className="text-lg leading-relaxed text-[#fffefe] max-w-md">
               株式会社Dazyは飲食店に特化した「SNS運用代行」と「映像制作」を提供しています。

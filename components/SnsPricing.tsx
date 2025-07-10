@@ -51,7 +51,7 @@ export default function SnsPricing() {
           <p className="text-lg text-gray-600 mb-2">飲食店特化型SNS運用プラン</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-          {plans.map((plan, index) => (
+          {plans.map((plan) => (
             <div
               key={plan.name} // keyをnameに変更して安定性を高める
               className={`
